@@ -1,0 +1,41 @@
+.f{
+    box-shadow: 10px 10px 10px 10px grey;
+    background-color: rgba(241, 241, 241, 0.945);
+    padding: 30px;
+    border-radius: 25px;
+    border-color: 110px, black;
+}
+
+p{
+    color:red;
+    font-size: 12px;
+    margin:0px;
+} 
+.form{
+    width: 550px;
+    margin: 10vh auto 0 auto;
+    border-radius: 25px;
+}
+input{
+    margin-bottom: 0;
+}
+#eye{
+    float:right;
+   margin-top:-25px;
+    padding-right: 10px;
+}
+body{
+    background: rgb(162,160,191);
+    background: linear-gradient(90deg, rgba(162,160,191,1) 0%, rgba(190,190,217,1) 13%, rgba(148,196,227,1) 31%, rgba(83,192,214,1) 71%, rgba(202,207,228,1) 89%, rgba(182,182,213,1) 99%);
+}
+@media  (max-width: 600px){
+    .form{
+        width: 350px;
+    }
+    body{
+        background: rgb(220,219,240);
+        background: linear-gradient(90deg, rgba(220,219,240,1) 0%, rgba(228,228,235,1) 100%, rgba(0,212,255,1) 100%);
+
+    }
+}
+    

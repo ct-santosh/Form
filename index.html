@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="form.css">
+        <title>Form</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <script src="form.js"></script>
+    </head>
+    <body>  
+    <div class="form">
+        <form class="f ">
+            <h1 style="text-align: center; font-family: Garamond, serif;">Sign Up</h1>
+            <label >User Name:</label><br>
+            <input type="text" CLASS = "form-control" id="uname" size="65" onblur="user()">
+            <p id="uerror"></p>
+            <label >Email Address:</label><br>
+            <input type="text" CLASS = "form-control" id="email" size="65" onblur="mail()">
+            <p id="eerror"></p>
+            <label >Password:</label><br>
+            <input type="PASSWORD" CLASS = "form-control" id="pwd" size="65" onblur="password()">
+            <span id="eye">
+            <i class="far fa-eye" id="togglePassword" style="cursor: pointer;" onmousedown="show_password()" onmouseup="hide_password()"></i>
+        </span>
+            <p id="perror"></p>
+            <label >Re-enter password:</label><br>
+            <input type="password" CLASS = "form-control" id="rpwd" size="65" onblur="rpassword()">
+            <p id="rperror"></p><br><br>            
+            <button CLASS = "form-control" onclick="doDisplay()"><b>Sign-UP</b></button>
+          </form>
+        </div>
+    </body>
+</html>
